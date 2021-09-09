@@ -7,8 +7,6 @@ document.getElementById('submit-btn').addEventListener('click', function () {
     const email = emailField.value;
     emailField.value = '';
     validEmail(email)
-
-
 })
 const validEmail = email => {
     const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
