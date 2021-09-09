@@ -1,0 +1,34 @@
+.user-email{
+    text-align:center;
+    margin: 10px;
+}
+#email{
+    margin: 15px;
+    padding:5px 10px;
+    border: 1px solid rgb(175, 163, 163);
+    border-radius: 2px;
+    font-size: 20px;
+}
+#submit-btn{
+    background-color: rgb(12, 129, 74);
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+#submit-btn:hover{
+    cursor: pointer;
+    background-color:rgb(16, 112, 67); 
+}
+#errorDiv{
+    margin: 0 auto;
+    width: 25%;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    display: none;
+}
+
